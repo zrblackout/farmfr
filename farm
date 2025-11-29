@@ -14,10 +14,10 @@ local muscleEvent = player:WaitForChild("muscleEvent")
 local leaderstats = player:WaitForChild("leaderstats")
 local rebirthsStat = leaderstats:WaitForChild("Rebirths")
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/lkjhg969/ffdsf/refs/heads/main/hgfhj", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/LuxuryPCVersion/v2ui//main/uisul", true))()
 
-local window = library:AddWindow("Silence | Farming", {
-    main_color = Color3.fromRGB(138, 0, 0),
+local window = library:AddWindow("Phantom | Farming", {
+    main_color = Color3.fromRGB(0, 0, 0),
     min_size = Vector2.new(600, 600),
     can_resize = false
 })
@@ -809,8 +809,8 @@ end)
 
 local infoTab = window:AddTab("Info")
 infoTab:Show()
-infoTab:AddLabel("Made by Henne ♥️").TextSize = 20
-infoTab:AddLabel("discord.gg/silencev1").TextSize = 20
+infoTab:AddLabel("LMAO").TextSize = 20
+infoTab:AddLabel("Stupid ass discord inv").TextSize = 20
 infoTab:AddButton("Copy Invite", function()
     local link = "https://discord.gg/9eFf93Kg8D"
     if setclipboard then
@@ -829,6 +829,6 @@ infoTab:AddButton("Copy Invite", function()
     end
 end)
 infoTab:AddLabel("")
-local wLabel = infoTab:AddLabel("VERSION//2.0.0")
+local wLabel = infoTab:AddLabel("FUCK SKIDDERS")
 wLabel.TextSize = 40
 wLabel.Font = Enum.Font.Arcade
