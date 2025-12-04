@@ -30,10 +30,11 @@ local function setupAntiAFK()
         VirtualUser:CaptureController()
         VirtualUser:ClickButton2(Vector2.new())
     end)
+
+    print("anti afk setup")
 end
+
 setupAntiAFK()
-print("anti afk setup")
-end
 
 local function removePortals()
     for _, portal in pairs(game:GetDescendants()) do
