@@ -32,6 +32,8 @@ local function setupAntiAFK()
     end)
 end
 setupAntiAFK()
+print("anti afk setup")
+end
 
 local function removePortals()
     for _, portal in pairs(game:GetDescendants()) do
